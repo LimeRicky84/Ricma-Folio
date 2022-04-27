@@ -1,43 +1,54 @@
-
+:root{
+    --accents: rgb(175, 70, 32);
+}
 /* Styles Sheet for Emadsen Portfolio */
 header {
-    display: inline-flex;
-    -ms-flex-align: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 95px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 130px;
+    color: var(--accents);
     font-family: Arial, Helvetica, sans-serif;
+    border: 8px;
+    border-style: solid;
+    border-color: var(--accents);
 
     /* font styles for the entire header maybe */
 }
 
 header img {
+    position: absolute;
+    left: 0;
+    top: 0;
     max-width: 85px;
     border-radius: 50%;
     margin-left: 100px;
+    margin-top: 15px;
 }
 
 header h1 {
-    padding-top: 0px; 
-    padding-left: 20px;
+    padding-top: 10px; 
+    padding-left: 200px;
     font-size: 25px;
-    margin-bottom: 0px;/* font size to be added */
+    margin-bottom: 0px;
 }
 
 header p {
     font-size: 18px;
-    margin-top: 8px;
-    padding-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 190px;
 }
 
 header ol {
     display: flex;
-    padding-right: 40px;
+    flex-wrap: wrap;
+    padding-right: 100px;
     column-gap: 50px;
-    margin-top: 70px;
+    margin-top: 8px;
     margin-bottom: 8px;
     position: absolute;
     right: 0;
+    border-bottom: 0;
 }
 
 header ol li {
@@ -45,4 +56,18 @@ header ol li {
     display: inline;
 }
 
-@media screen and (min-width: 768px) {}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--accents);
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(20, 10, 7);
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        height: 140px;
+    }
+}
