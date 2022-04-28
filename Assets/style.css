@@ -90,7 +90,7 @@ aside img {
     border-style: solid;
     width: 250px;
 }
-
+/* media screen modifications to be made at 1310 px as well */
 @media screen and (max-width: 614px) {
     header{
         height: 145px;
