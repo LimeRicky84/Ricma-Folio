@@ -11,18 +11,19 @@ header {
     border: 8px;
     border-style: solid;
     border-color: var(--accents);
+    position: sticky;
+    top: 0;
 
-    /* font styles for the entire header maybe */
 }
 
 header img {
     position: absolute;
-    left: 0;
-    top: 0;
-    max-width: 85px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
     margin-left: 100px;
-    margin-top: 15px;
+    margin-top: 13px;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -57,17 +58,41 @@ header ol li {
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 64px;
     color: var(--accents);
 }
 
 body {
     margin: 0px;
-    background-color: rgb(20, 10, 7);
+    background-color: rgb(19, 12, 5);
 }
 
-@media screen and (max-width: 768px) {
+aside {
+    width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  margin-right: 30px;
+  margin-top: 100px;
+  float: right;
+  background-color: var(--accents);
+}
+
+aside img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px 10px red;
+    margin: 50px;
+    padding: 8px;
+    border: 4px;
+    border-style: solid;
+    width: 250px;
+}
+
+@media screen and (max-width: 614px) {
     header{
-        height: 140px;
+        height: 145px;
     }
 }
