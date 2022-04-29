@@ -92,6 +92,7 @@ aside img {
 }
 
 footer {
+    box-sizing: border-box;
     border: 8px;
     color: var(--accents);
     border-style: solid;
@@ -99,6 +100,13 @@ footer {
     clear: both;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.altFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 /* media screen modifications to be made at 1310 px as well */
 @media screen and (max-width: 614px) {
