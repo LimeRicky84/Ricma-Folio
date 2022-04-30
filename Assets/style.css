@@ -77,13 +77,22 @@ h2 {
     text-align: initial;
     font-family: 'Cuprum', sans-serif;
     font-size: 48px;
-    color: var(--accents);
+    color: rgb(211, 209, 209);
 }
 
 body {
     margin: 0px;
     background-image: url("Media/andras-vas-Bd7gNnWJBkU-unsplash.jpg");
     background-color: rgb(17, 17, 14);
+}
+
+.intro {
+    font-family: 'Cuprum', sans-serif;
+    position: absolute;
+    top: 300px;
+    left: 355px;
+    color: rgb(211, 209, 209);
+    size: 20px;
 }
 
 .laptop {
