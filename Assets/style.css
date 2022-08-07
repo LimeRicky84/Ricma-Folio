@@ -86,6 +86,15 @@ body {
     background-color: rgb(17, 17, 14);
 }
 
+.white {
+    color: aliceblue;
+    position: absolute;
+    top: 300px;
+    left: 440px;
+    text-align: initial;
+    font-family: 'Cuprum', sans-serif;
+}
+
 .intro {
     font-family: 'Cuprum', sans-serif;
     position: absolute;
